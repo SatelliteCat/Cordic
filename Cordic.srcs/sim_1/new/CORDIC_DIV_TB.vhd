@@ -57,7 +57,7 @@ begin
 
 uut: CORDIC_DIV
 	generic map (
-		num_iters => 10,
+		num_iters => 9,
 		width => 16) 
 	port map(
 		i_a => s_a,
@@ -77,8 +77,8 @@ end process;
 
 stim_proc: process
 begin
-	s_a <= X"0b9a"; -- 11.6
-	s_b <= X"3273"; -- 50.45
+	s_a <= X"1733"; -- 11.6
+	s_b <= X"64e6"; -- 50.45
 	wait for 2*c_clk_per;
 	s_start <= '1';
 	wait for c_clk_per;

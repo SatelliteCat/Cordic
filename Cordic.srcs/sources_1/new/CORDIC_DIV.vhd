@@ -48,7 +48,7 @@ architecture rtl of CORDIC_DIV is
 signal s_a_current, s_b_current, s_quotient_current : unsigned(width-1 downto 0) := (others => '0');
 signal s_working : std_logic := '0';
 signal s_counter : integer := 0;
-signal s_shift : unsigned(width-1 downto 0) := (width-2 => '1', others => '0');
+signal s_shift : unsigned(width-1 downto 0) := (width-8 => '1', others => '0');
 
 begin
 
@@ -61,7 +61,7 @@ begin
 				s_a_current <= unsigned(i_a);
 				s_b_current <= unsigned('0' & i_b(width-1 downto 1));
 				s_quotient_current <= (others => '0');
-				s_shift <= (width-2 => '1', others => '0');
+				s_shift <= (width-8 => '1', others => '0');
 				s_counter <= 0;
 			end if;
 		else
