@@ -1,4 +1,17 @@
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity CORDIC_DIV
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sim_1/new/CORDIC_DIV_TB.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity CORDIC_DIV_TB
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_MUL
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/coprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity coprocessor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FIFO
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_rx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MLUART_RX
+INFO: [VRFC 10-307] analyzing entity MLUART_RX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MLUART_TX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sim_1/new/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb

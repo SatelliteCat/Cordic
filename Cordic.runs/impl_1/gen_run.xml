@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1513560645">
+  <File Type="PWROPT-DRC" Name="CORDIC_MUL_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CORDIC_MUL_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="CORDIC_MUL_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="CORDIC_MUL_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="CORDIC_MUL.tcl"/>
+  <File Type="OPT-HWDEF" Name="CORDIC_MUL.hwdef"/>
+  <File Type="RDI-RDI" Name="CORDIC_MUL.vdi"/>
+  <File Type="OPT-DCP" Name="CORDIC_MUL_opt.dcp"/>
+  <File Type="OPT-DRC" Name="CORDIC_MUL_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="CORDIC_MUL_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="CORDIC_MUL_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="CORDIC_MUL_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="CORDIC_MUL_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CORDIC_MUL_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CORDIC_MUL_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CORDIC_MUL_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CORDIC_MUL_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CORDIC_MUL_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CORDIC_MUL_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CORDIC_MUL_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="CORDIC_MUL_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CORDIC_MUL_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CORDIC_MUL_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CORDIC_MUL_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="CORDIC_MUL_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="CORDIC_MUL_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CORDIC_MUL_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CORDIC_MUL_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CORDIC_MUL_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CORDIC_MUL_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CORDIC_MUL_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="CORDIC_MUL.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="CORDIC_MUL_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="CORDIC_MUL.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CORDIC_MUL_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="CORDIC_MUL.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CORDIC_MUL_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="CORDIC_MUL.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CORDIC_MUL_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="CORDIC_MUL_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="CORDIC_MUL_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="CORDIC_MUL_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CORDIC_MUL_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CORDIC_MUL_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CORDIC_MUL_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CORDIC_MUL_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CORDIC_MUL_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CORDIC_MUL_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CORDIC_MUL_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CORDIC_MUL_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CORDIC_MUL_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CORDIC_MUL_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CORDIC_MUL_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="CORDIC_MUL.bit"/>
+  <File Type="BITSTR-RBT" Name="CORDIC_MUL.rbt"/>
+  <File Type="BITSTR-NKY" Name="CORDIC_MUL.nky"/>
+  <File Type="BITSTR-BMM" Name="CORDIC_MUL_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="CORDIC_MUL.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="CORDIC_MUL.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/CORDIC_MUL.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CORDIC_DIV.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mluart_tx.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/mluart_tx.vhd"/>
+        <Attr Name="ImportTime" Val="1513554688"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/top.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/top.vhd"/>
+        <Attr Name="ImportTime" Val="1513554621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/fifo.vhd"/>
+        <Attr Name="ImportTime" Val="1513554691"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mluart_rx.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/mluart_rx.vhd"/>
+        <Attr Name="ImportTime" Val="1513554692"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/coprocessor.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/coprocessor.vhd"/>
+        <Attr Name="ImportTime" Val="1513554693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CORDIC_MUL"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Nexys4.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

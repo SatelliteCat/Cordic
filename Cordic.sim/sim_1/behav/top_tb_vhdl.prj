@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Cordic.srcs/sources_1/new/CORDIC_DIV.vhd"
+vhdl xil_defaultlib  "../../../Cordic.srcs/sources_1/new/CORDIC_MUL.vhd"
+vhdl xil_defaultlib  "../../../Cordic.srcs/sources_1/imports/new/coprocessor.vhd"
+vhdl xil_defaultlib  "../../../Cordic.srcs/sources_1/imports/new/fifo.vhd"
+vhdl xil_defaultlib  "../../../Cordic.srcs/sources_1/imports/new/mluart_rx.vhd"
+vhdl xil_defaultlib  "../../../Cordic.srcs/sources_1/imports/new/mluart_tx.vhd"
+vhdl xil_defaultlib  "../../../Cordic.srcs/sources_1/imports/new/top.vhd"
+vhdl xil_defaultlib  "../../../Cordic.srcs/sim_1/new/top_tb.vhd"
+
+# Do not sort compile order
+nosort

@@ -1,6 +1,6 @@
 @echo off
 set xv_path=E:\\xilinx\\Vivado\\2017.2\\bin
-call %xv_path%/xsim CORDIC_DIV_TB_behav -key {Behavioral:sim_1:Functional:CORDIC_DIV_TB} -tclbatch CORDIC_DIV_TB.tcl -log simulate.log
+call %xv_path%/xsim top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch top_tb.tcl -log simulate.log
 if "%errorlevel%"=="0" goto SUCCESS
 if "%errorlevel%"=="1" goto END
 :END
