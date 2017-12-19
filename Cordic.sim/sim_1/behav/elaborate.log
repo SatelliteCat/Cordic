@@ -1,9 +1,9 @@
 Vivado Simulator 2017.2
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: E:/xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 5d433d12fe3a4d97a568d40a92246fe3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Running: D:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 5d433d12fe3a4d97a568d40a92246fe3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-1409] subtype of case expression is not locally static [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:109]
+WARNING: [VRFC 10-1409] subtype of case expression is not locally static [D:/Projects/Cordic/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:109]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis

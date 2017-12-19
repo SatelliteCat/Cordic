@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Dec 19 10:45:20 2017
+# Process ID: 24988
+# Current directory: D:/Projects/Cordic/Cordic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12192 D:\Projects\Cordic\Cordic\Cordic.xpr
+# Log file: D:/Projects/Cordic/Cordic/vivado.log
+# Journal file: D:/Projects/Cordic/Cordic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/Cordic/Cordic/Cordic.xpr
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+wait_on_run impl_2
+launch_simulation
+source top_tb.tcl
+run 11 ms
+relaunch_sim
+run 11 ms
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+wait_on_run impl_2

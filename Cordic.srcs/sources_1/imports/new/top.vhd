@@ -175,24 +175,24 @@ begin
 		  --Write cases
 		  when execute => if(o_done = '1') then
 		  					txIn <= out1(15 downto 8);
-		  					sstate <= write1;
-		  					nextState <= writeWait;
+		  					sstate <= writefTX;
+		  					nextState <= write1;
 		  				else sstate <= execute;
 		  				end if;
 		  				
 		  
 		  when write1 => sstate <= writeWait;
-		  when writeWait  => if send_data_complete = '1' then 
+		  when writeWait  => if send_data_complete = '1' then
+		  txIn<=out1(7 downto 0); 
 		   sstate <= writefTX; 
 		   nextState<= write2; 
 		   end if;
 		  
 		  when write2 => sstate <= writeWait2;
-		  				txIn<=out1(7 downto 0);
+		  				
 		  when writeWait2 => 
 		  if send_data_complete = '1' then 
-		  	sstate<= writefTX;
-		  	nextState <= finalWait;
+		  	sstate<= finalWait;
 		  end if;
 		  when finalWait  => if UART_RX = '1' then sstate <= idle; end if;
 		end case;
