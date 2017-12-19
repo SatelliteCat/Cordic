@@ -1,6 +1,6 @@
 Vivado Simulator 2017.2
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: E:/xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 5d433d12fe3a4d97a568d40a92246fe3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Running: E:/xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 5d433d12fe3a4d97a568d40a92246fe3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 WARNING: [VRFC 10-1409] subtype of case expression is not locally static [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:109]
@@ -13,8 +13,25 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
 Compiling package ieee.std_logic_textio
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
 Compiling architecture rtl of entity xil_defaultlib.CORDIC_MUL [cordic_mul_default]
 Compiling architecture rtl of entity xil_defaultlib.CORDIC_DIV [cordic_div_default]
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(init_00="0000000000000...]
+Compiling architecture structure of entity xil_defaultlib.TRIG_LUT_blk_mem_gen_prim_wrapper_init [trig_lut_blk_mem_gen_prim_wrappe...]
+Compiling architecture structure of entity xil_defaultlib.TRIG_LUT_blk_mem_gen_prim_width [trig_lut_blk_mem_gen_prim_width_...]
+Compiling architecture structure of entity xil_defaultlib.TRIG_LUT_blk_mem_gen_generic_cstr [trig_lut_blk_mem_gen_generic_cst...]
+Compiling architecture structure of entity xil_defaultlib.TRIG_LUT_blk_mem_gen_top [trig_lut_blk_mem_gen_top_default]
+Compiling architecture structure of entity xil_defaultlib.TRIG_LUT_blk_mem_gen_v8_3_6_synth [trig_lut_blk_mem_gen_v8_3_6_synt...]
+Compiling architecture structure of entity xil_defaultlib.TRIG_LUT_blk_mem_gen_v8_3_6 [trig_lut_blk_mem_gen_v8_3_6_defa...]
+Compiling architecture structure of entity xil_defaultlib.TRIG_LUT [trig_lut_default]
+Compiling architecture rtl of entity xil_defaultlib.CORDIC_TRIG [cordic_trig_default]
 Compiling architecture behavioral of entity xil_defaultlib.coprocessor [coprocessor_default]
 Compiling architecture behavioral of entity xil_defaultlib.FIFO [\FIFO(depth=512)\]
 Compiling architecture behavioral of entity xil_defaultlib.FIFO [\FIFO(depth=1024)\]

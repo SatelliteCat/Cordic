@@ -83,8 +83,8 @@ end component;
 component coprocessor is
     Port ( clk : in STD_LOGIC;
     	   in1,in2 : in std_logic_vector(15 downto 0);
-    	   output    : out std_logic_vector(15 downto 0);
-  
+    	   output1    : out std_logic_vector(15 downto 0);
+  		   output2    : out std_logic_vector(15 downto 0);
     	   start : in std_logic;
            done :  out std_logic;
            SWITCHES : in std_logic_vector(1 downto 0));
@@ -115,7 +115,7 @@ signal read_Input,read_Col,read_Size,read_Image : std_logic;
 signal i_start, o_done : std_logic;
 signal inputs : std_logic_vector(31 downto 0);
 signal in1, in2 : std_logic_vector(15 downto 0);
-signal out1		: std_logic_vector(15 downto 0);
+signal out1,out2		: std_logic_vector(15 downto 0);
 
 begin 
 
@@ -175,24 +175,24 @@ begin
 		  --Write cases
 		  when execute => if(o_done = '1') then
 		  					txIn <= out1(15 downto 8);
-		  					sstate <= write1;
-		  					nextState <= writeWait;
+		  					sstate <= writefTX;
+		  					nextState <= write1;
 		  				else sstate <= execute;
 		  				end if;
 		  				
 		  
 		  when write1 => sstate <= writeWait;
-		  when writeWait  => if send_data_complete = '1' then 
+		  when writeWait  => if send_data_complete = '1' then
+		  txIn<=out1(7 downto 0); 
 		   sstate <= writefTX; 
 		   nextState<= write2; 
 		   end if;
 		  
 		  when write2 => sstate <= writeWait2;
-		  				txIn<=out1(7 downto 0);
+		  				
 		  when writeWait2 => 
 		  if send_data_complete = '1' then 
-		  	sstate<= writefTX;
-		  	nextState <= finalWait;
+		  	sstate<= finalWait;
 		  end if;
 		  when finalWait  => if UART_RX = '1' then sstate <= idle; end if;
 		end case;
@@ -266,8 +266,8 @@ COPROCESSOR1: coprocessor
     Port map( clk => CLK_100MHZ,
     	   in1=>in1,
     	   in2 =>in2,
-    	   output=>out1,
-  
+    	   output1=>out1,
+		   output2=>out2,  
     	   start=>i_start,
            done =>o_done,
            SWITCHES=>SWITCHES);

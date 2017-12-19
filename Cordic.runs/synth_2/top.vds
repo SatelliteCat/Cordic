@@ -2,8 +2,8 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Sun Dec 17 20:41:24 2017
-# Process ID: 10464
+# Start of session at: Tue Dec 19 11:21:13 2017
+# Process ID: 13064
 # Current directory: C:/Users/Liam/Documents/GitHub/Cordic/Cordic.runs/synth_2
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: C:/Users/Liam/Documents/GitHub/Cordic/Cordic.runs/synth_2/top.vds
@@ -15,12 +15,12 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 16844 
+INFO: Helper process launched with PID 16664 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 315.746 ; gain = 78.523
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 315.852 ; gain = 78.930
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:45]
-INFO: [Synth 8-3491] module 'coprocessor' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/coprocessor.vhd:34' bound to instance 'COPROCESSOR1' of component 'coprocessor' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:257]
+INFO: [Synth 8-3491] module 'coprocessor' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/coprocessor.vhd:34' bound to instance 'COPROCESSOR1' of component 'coprocessor' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:265]
 INFO: [Synth 8-638] synthesizing module 'coprocessor' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/coprocessor.vhd:44]
 	Parameter num_iters bound to: 10 - type: integer 
 	Parameter width bound to: 16 - type: integer 
@@ -39,7 +39,7 @@ INFO: [Synth 8-256] done synthesizing module 'CORDIC_DIV' (2#1) [C:/Users/Liam/D
 INFO: [Synth 8-256] done synthesizing module 'coprocessor' (3#1) [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/coprocessor.vhd:44]
 	Parameter depth bound to: 512 - type: integer 
 	Parameter width bound to: 8 - type: integer 
-INFO: [Synth 8-3491] module 'FIFO' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:34' bound to instance 'FIFO_RX_INSTANCE' of component 'FIFO' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:267]
+INFO: [Synth 8-3491] module 'FIFO' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:34' bound to instance 'FIFO_RX_INSTANCE' of component 'FIFO' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:275]
 INFO: [Synth 8-638] synthesizing module 'FIFO' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:51]
 	Parameter depth bound to: 512 - type: integer 
 	Parameter width bound to: 8 - type: integer 
@@ -47,24 +47,24 @@ WARNING: [Synth 8-6014] Unused sequential element rdwr_Comp_reg was removed.  [C
 INFO: [Synth 8-256] done synthesizing module 'FIFO' (4#1) [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:51]
 	Parameter depth bound to: 1024 - type: integer 
 	Parameter width bound to: 8 - type: integer 
-INFO: [Synth 8-3491] module 'FIFO' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:34' bound to instance 'FIFO_TX_INSTANCE' of component 'FIFO' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:280]
+INFO: [Synth 8-3491] module 'FIFO' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:34' bound to instance 'FIFO_TX_INSTANCE' of component 'FIFO' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:288]
 INFO: [Synth 8-638] synthesizing module 'FIFO__parameterized1' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:51]
 	Parameter depth bound to: 1024 - type: integer 
 	Parameter width bound to: 8 - type: integer 
 WARNING: [Synth 8-6014] Unused sequential element rdwr_Comp_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:87]
 INFO: [Synth 8-256] done synthesizing module 'FIFO__parameterized1' (4#1) [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:51]
-INFO: [Synth 8-3491] module 'MLUART_TX' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:24' bound to instance 'MLUART_TX_INSTANCE_01' of component 'MLUART_TX' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:294]
+INFO: [Synth 8-3491] module 'MLUART_TX' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:24' bound to instance 'MLUART_TX_INSTANCE_01' of component 'MLUART_TX' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:302]
 INFO: [Synth 8-638] synthesizing module 'MLUART_TX' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:34]
 INFO: [Synth 8-256] done synthesizing module 'MLUART_TX' (5#1) [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:34]
-INFO: [Synth 8-3491] module 'MLUART_RX' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_rx.vhd:24' bound to instance 'MLUART_RX_INSTANCE_01' of component 'MLUART_RX' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:303]
+INFO: [Synth 8-3491] module 'MLUART_RX' declared at 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_rx.vhd:24' bound to instance 'MLUART_RX_INSTANCE_01' of component 'MLUART_RX' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:311]
 INFO: [Synth 8-638] synthesizing module 'MLUART_RX' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_rx.vhd:34]
 INFO: [Synth 8-256] done synthesizing module 'MLUART_RX' (6#1) [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_rx.vhd:34]
-WARNING: [Synth 8-6014] Unused sequential element coprocessorEn_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:244]
+WARNING: [Synth 8-6014] Unused sequential element coprocessorEn_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:252]
 INFO: [Synth 8-256] done synthesizing module 'top' (7#1) [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:45]
 WARNING: [Synth 8-3331] design CORDIC_DIV has unconnected port i_b[0]
 WARNING: [Synth 8-3331] design CORDIC_MUL has unconnected port i_b[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 356.078 ; gain = 118.855
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 355.930 ; gain = 119.008
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -74,7 +74,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 356.078 ; gain = 118.855
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 355.930 ; gain = 119.008
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -114,33 +114,33 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 672.070 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 672.172 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 672.070 ; gain = 434.848
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 672.172 ; gain = 435.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 672.070 ; gain = 434.848
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 672.172 ; gain = 435.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 672.070 ; gain = 434.848
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 672.172 ; gain = 435.250
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:68]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:68]
-INFO: [Synth 8-5545] ROM "s_working" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-WARNING: [Synth 8-6014] Unused sequential element s_a_current_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:61]
-WARNING: [Synth 8-6014] Unused sequential element s_counter_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:65]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:68]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:68]
-INFO: [Synth 8-5545] ROM "s_working" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-WARNING: [Synth 8-6014] Unused sequential element s_quotient_current_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:63]
-WARNING: [Synth 8-6014] Unused sequential element s_counter_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:65]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:72]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:72]
+INFO: [Synth 8-802] inferred FSM for state register 'sstate_reg' in module 'CORDIC_MUL'
+WARNING: [Synth 8-6014] Unused sequential element sstate_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:60]
+INFO: [Synth 8-5545] ROM "sstate" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:71]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:71]
+INFO: [Synth 8-802] inferred FSM for state register 'sstate_reg' in module 'CORDIC_DIV'
+WARNING: [Synth 8-6014] Unused sequential element sstate_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:59]
+INFO: [Synth 8-5545] ROM "sstate" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "rPointer" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "looped" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "looped" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
@@ -175,13 +175,39 @@ WARNING: [Synth 8-6014] Unused sequential element scount4_reg was removed.  [C:/
 INFO: [Synth 8-5546] ROM "sclk_en_16_x_baud" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "send_data" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "read_data" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "i_start" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5546] ROM "read_Input" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "read_Input" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "size" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5544] ROM "wrRX" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "wrTX" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "rdRX" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "rdTX" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element sstate_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:60]
+WARNING: [Synth 8-6014] Unused sequential element sstate_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:60]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                    work |                               01 |                               01
+                   swait |                               10 |                               10
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sstate_reg' using encoding 'sequential' in module 'CORDIC_MUL'
+WARNING: [Synth 8-6014] Unused sequential element sstate_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:60]
+WARNING: [Synth 8-6014] Unused sequential element sstate_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:59]
+WARNING: [Synth 8-6014] Unused sequential element sstate_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:59]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                    work |                               01 |                               01
+                   swait |                               10 |                               10
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sstate_reg' using encoding 'sequential' in module 'CORDIC_DIV'
+WARNING: [Synth 8-6014] Unused sequential element sstate_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:59]
 WARNING: [Synth 8-6014] Unused sequential element sstateTX_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:51]
 WARNING: [Synth 8-6014] Unused sequential element sstateTX_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:51]
 ---------------------------------------------------------------------------------------------------
@@ -222,12 +248,12 @@ WARNING: [Synth 8-6014] Unused sequential element sstateRX_reg was removed.  [C:
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'sstateRX_reg' using encoding 'one-hot' in module 'MLUART_RX'
 WARNING: [Synth 8-6014] Unused sequential element sstateRX_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_rx.vhd:52]
-WARNING: [Synth 8-327] inferring latch for variable 'wrTX_reg' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:235]
-WARNING: [Synth 8-327] inferring latch for variable 'rdTX_reg' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:241]
-WARNING: [Synth 8-327] inferring latch for variable 'wrRX_reg' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:233]
-WARNING: [Synth 8-327] inferring latch for variable 'rdRX_reg' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:237]
+WARNING: [Synth 8-327] inferring latch for variable 'wrTX_reg' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:243]
+WARNING: [Synth 8-327] inferring latch for variable 'rdTX_reg' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:249]
+WARNING: [Synth 8-327] inferring latch for variable 'wrRX_reg' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:241]
+WARNING: [Synth 8-327] inferring latch for variable 'rdRX_reg' [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/top.vhd:245]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 672.070 ; gain = 434.848
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 672.172 ; gain = 435.250
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -240,41 +266,41 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 6     
-	   3 Input     16 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 8     
+	   3 Input     16 Bit       Adders := 4     
 	   2 Input     12 Bit       Adders := 1     
 	   2 Input      4 Bit       Adders := 2     
 +---Registers : 
-	               32 Bit    Registers := 3     
-	               16 Bit    Registers := 5     
-	               15 Bit    Registers := 2     
+	               32 Bit    Registers := 5     
+	               16 Bit    Registers := 9     
 	               12 Bit    Registers := 1     
 	                8 Bit    Registers := 5     
 	                4 Bit    Registers := 4     
-	                1 Bit    Registers := 13    
+	                1 Bit    Registers := 12    
 +---RAMs : 
 	               8K Bit         RAMs := 1     
 	               4K Bit         RAMs := 1     
 +---Muxes : 
+	   4 Input     32 Bit        Muxes := 2     
 	   2 Input     32 Bit        Muxes := 8     
 	  16 Input     32 Bit        Muxes := 2     
-	   2 Input     16 Bit        Muxes := 4     
-	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 6     
+	   4 Input     16 Bit        Muxes := 8     
 	   2 Input     12 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 1     
 	  16 Input      8 Bit        Muxes := 1     
-	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
 	   3 Input      4 Bit        Muxes := 1     
 	  16 Input      4 Bit        Muxes := 1     
-	   2 Input      3 Bit        Muxes := 2     
-	   3 Input      1 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 26    
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 28    
+	   4 Input      1 Bit        Muxes := 7     
 	  13 Input      1 Bit        Muxes := 1     
-	   4 Input      1 Bit        Muxes := 1     
 	  11 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 5     
 	  17 Input      1 Bit        Muxes := 1     
 	   5 Input      1 Bit        Muxes := 2     
-	  16 Input      1 Bit        Muxes := 4     
 	   6 Input      1 Bit        Muxes := 8     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -293,45 +319,53 @@ Detailed RTL Component Info :
 	               12 Bit    Registers := 1     
 	                8 Bit    Registers := 1     
 	                4 Bit    Registers := 2     
-	                1 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
 +---Muxes : 
 	  16 Input     32 Bit        Muxes := 2     
 	   2 Input     32 Bit        Muxes := 2     
 	   2 Input     12 Bit        Muxes := 1     
 	  16 Input      8 Bit        Muxes := 1     
-	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
 	   3 Input      4 Bit        Muxes := 1     
 	  16 Input      4 Bit        Muxes := 1     
-	   2 Input      3 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	  16 Input      1 Bit        Muxes := 5     
 	  17 Input      1 Bit        Muxes := 1     
 	   5 Input      1 Bit        Muxes := 2     
-	  16 Input      1 Bit        Muxes := 4     
 	   6 Input      1 Bit        Muxes := 8     
 Module CORDIC_MUL 
 Detailed RTL Component Info : 
 +---Adders : 
-	   3 Input     16 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 2     
 +---Registers : 
-	               16 Bit    Registers := 2     
-	               15 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
 	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     16 Bit        Muxes := 1     
-	   2 Input     15 Bit        Muxes := 1     
-	   3 Input      1 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input     16 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
 Module CORDIC_DIV 
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 2     
 +---Registers : 
-	               16 Bit    Registers := 2     
-	               15 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
 	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     16 Bit        Muxes := 1     
-	   2 Input     15 Bit        Muxes := 1     
-	   3 Input      1 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input     16 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
 Module coprocessor 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -404,6 +438,8 @@ WARNING: [Synth 8-6014] Unused sequential element FIFO_RX_INSTANCE/f_full_reg wa
 WARNING: [Synth 8-6014] Unused sequential element FIFO_RX_INSTANCE/f_empty_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:100]
 WARNING: [Synth 8-6014] Unused sequential element FIFO_TX_INSTANCE/f_full_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:98]
 WARNING: [Synth 8-6014] Unused sequential element FIFO_TX_INSTANCE/f_empty_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:100]
+INFO: [Synth 8-5545] ROM "COPROCESSOR1/CORDIC_MUL_INST/sstate" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "COPROCESSOR1/CORDIC_DIV_INST/sstate" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "FIFO_RX_INSTANCE/looped" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "FIFO_RX_INSTANCE/looped" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "FIFO_RX_INSTANCE/wPointer" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
@@ -414,33 +450,35 @@ INFO: [Synth 8-5545] ROM "FIFO_TX_INSTANCE/wPointer" won't be mapped to RAM beca
 INFO: [Synth 8-5545] ROM "FIFO_TX_INSTANCE/rPointer" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5546] ROM "sclk_en_16_x_baud" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "read_Input" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "size" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-WARNING: [Synth 8-6014] Unused sequential element COPROCESSOR1/CORDIC_MUL_INST/s_counter_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:65]
-WARNING: [Synth 8-6014] Unused sequential element COPROCESSOR1/CORDIC_MUL_INST/s_a_current_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd:61]
-WARNING: [Synth 8-6014] Unused sequential element COPROCESSOR1/CORDIC_DIV_INST/s_counter_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:65]
-WARNING: [Synth 8-6014] Unused sequential element COPROCESSOR1/CORDIC_DIV_INST/s_quotient_current_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd:63]
 WARNING: [Synth 8-6014] Unused sequential element FIFO_RX_INSTANCE/wPointer_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:92]
 WARNING: [Synth 8-6014] Unused sequential element FIFO_RX_INSTANCE/rPointer_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:88]
 WARNING: [Synth 8-6014] Unused sequential element FIFO_TX_INSTANCE/wPointer_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:92]
 WARNING: [Synth 8-6014] Unused sequential element FIFO_TX_INSTANCE/rPointer_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd:88]
 WARNING: [Synth 8-6014] Unused sequential element MLUART_TX_INSTANCE_01/scount4_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_tx.vhd:122]
 WARNING: [Synth 8-6014] Unused sequential element MLUART_RX_INSTANCE_01/scount4_reg was removed.  [C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/mluart_rx.vhd:102]
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_MUL_INST/s_shift_reg[15] )
+INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_b_current_reg[15]' (FDE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[15]'
+INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_MUL_INST/s_shift_reg[15]' (FDE) to 'COPROCESSOR1/CORDIC_MUL_INST/s_b_current_reg[15]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[15] )
-INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[14]' (FDRE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[13]'
-INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[15]' (FDRE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_MUL_INST/s_b_current_reg[15] )
+INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[15]' (FDE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[14] )
+INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[14]' (FDE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[13]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[13] )
-INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[12]' (FDRE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[11]'
-INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[13]' (FDRE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[11]'
+INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[13]' (FDE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[12] )
+INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[12]' (FDE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[11]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[11] )
-INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[10]' (FDRE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[9]'
-INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[11]' (FDRE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[9]'
+INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[11]' (FDE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[10] )
+INFO: [Synth 8-3886] merging instance 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[10]' (FDE) to 'COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[9]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[9] )
 WARNING: [Synth 8-3332] Sequential element (inputs_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (COPROCESSOR1/CORDIC_MUL_INST/s_b_current_reg[15]) is unused and will be removed from module top.
 WARNING: [Synth 8-3332] Sequential element (COPROCESSOR1/CORDIC_DIV_INST/s_shift_reg[9]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (COPROCESSOR1/CORDIC_MUL_INST/s_shift_reg[15]) is unused and will be removed from module top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 672.070 ; gain = 434.848
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 672.172 ; gain = 435.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -468,13 +506,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 672.070 ; gain = 434.848
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 672.172 ; gain = 435.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -490,7 +528,7 @@ WARNING: [Synth 8-3332] Sequential element (size_reg[0]) is unused and will be r
 INFO: [Synth 8-4480] The timing for the instance FIFO_RX_INSTANCE/fifo_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 INFO: [Synth 8-4480] The timing for the instance FIFO_TX_INSTANCE/fifo_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -514,7 +552,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -527,7 +565,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -539,25 +577,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -575,39 +613,38 @@ Report Cell Usage:
 +------+---------+------+
 |1     |BUFG     |     1|
 |2     |CARRY4   |   111|
-|3     |LUT1     |   293|
-|4     |LUT2     |    44|
-|5     |LUT3     |   160|
-|6     |LUT4     |    85|
-|7     |LUT5     |    85|
-|8     |LUT6     |   101|
+|3     |LUT1     |   300|
+|4     |LUT2     |    21|
+|5     |LUT3     |   204|
+|6     |LUT4     |    72|
+|7     |LUT5     |    52|
+|8     |LUT6     |   128|
 |9     |RAMB18E1 |     2|
-|10    |FDRE     |   521|
-|11    |FDSE     |     2|
-|12    |LD       |     4|
-|13    |IBUF     |     4|
-|14    |OBUF     |     9|
+|10    |FDRE     |   526|
+|11    |LD       |     4|
+|12    |IBUF     |     4|
+|13    |OBUF     |     9|
 +------+---------+------+
 
 Report Instance Areas: 
 +------+------------------------+---------------------+------+
 |      |Instance                |Module               |Cells |
 +------+------------------------+---------------------+------+
-|1     |top                     |                     |  1422|
-|2     |  COPROCESSOR1          |coprocessor          |   477|
-|3     |    CORDIC_DIV_INST     |CORDIC_DIV           |   228|
-|4     |    CORDIC_MUL_INST     |CORDIC_MUL           |   218|
-|5     |  FIFO_RX_INSTANCE      |FIFO                 |   306|
+|1     |top                     |                     |  1434|
+|2     |  COPROCESSOR1          |coprocessor          |   483|
+|3     |    CORDIC_DIV_INST     |CORDIC_DIV           |   215|
+|4     |    CORDIC_MUL_INST     |CORDIC_MUL           |   219|
+|5     |  FIFO_RX_INSTANCE      |FIFO                 |   313|
 |6     |  FIFO_TX_INSTANCE      |FIFO__parameterized1 |   259|
-|7     |  MLUART_RX_INSTANCE_01 |MLUART_RX            |    42|
-|8     |  MLUART_TX_INSTANCE_01 |MLUART_TX            |    51|
+|7     |  MLUART_RX_INSTANCE_01 |MLUART_RX            |    43|
+|8     |  MLUART_TX_INSTANCE_01 |MLUART_TX            |    53|
 +------+------------------------+---------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 708.402 ; gain = 471.180
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 696.855 ; gain = 459.934
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 43 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 708.402 ; gain = 155.188
-Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 708.402 ; gain = 471.180
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 696.855 ; gain = 143.691
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 696.855 ; gain = 459.934
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 121 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -617,9 +654,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 4 instances were transformed.
   LD => LDCE: 4 instances
 
-97 Infos, 56 Warnings, 8 Critical Warnings and 0 Errors encountered.
+111 Infos, 56 Warnings, 8 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 708.402 ; gain = 479.945
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 696.855 ; gain = 467.695
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Liam/Documents/GitHub/Cordic/Cordic.runs/synth_2/top.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 708.402 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sun Dec 17 20:41:52 2017...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 696.855 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 19 11:21:42 2017...

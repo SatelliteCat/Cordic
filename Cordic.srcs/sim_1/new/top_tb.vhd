@@ -104,16 +104,22 @@ BEGIN
    process
    variable sendo : std_logic_vector(7 downto 0);
    begin
-   		SWITCHES <= "00";
+   		SWITCHES <= "10";
   		sendo := x"01";
   		send_UART(UART_RX, CLK_100MHZ_period, sendo);
-  		sendo := x"19";
+  		sendo := x"64";
   		send_UART(UART_RX, CLK_100MHZ_period, sendo);
-  		sendo := x"9a";
+  		sendo := x"88";
   		send_UART(UART_RX, CLK_100MHZ_period, sendo);
-  		sendo := x"33";
+  		sendo := x"00";
   		send_UART(UART_RX, CLK_100MHZ_period, sendo);
   		send_UART(UART_RX, CLK_100MHZ_period, sendo);
+  		
+--  		sendo := x"9a";
+--  		send_UART(UART_RX, CLK_100MHZ_period, sendo);
+--  		sendo := x"33";
+--  		send_UART(UART_RX, CLK_100MHZ_period, sendo);
+--  		send_UART(UART_RX, CLK_100MHZ_period, sendo);
   		sendo := x"02";
   		send_UART(UART_RX, CLK_100MHZ_period, sendo);
   		wait;

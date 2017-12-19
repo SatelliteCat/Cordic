@@ -1,7 +1,17 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/ip/TRIG_LUT/TRIG_LUT_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TRIG_LUT_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-307] analyzing entity TRIG_LUT_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity TRIG_LUT_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity TRIG_LUT_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity TRIG_LUT_blk_mem_gen_v8_3_6_synth
+INFO: [VRFC 10-307] analyzing entity TRIG_LUT_blk_mem_gen_v8_3_6
+INFO: [VRFC 10-307] analyzing entity TRIG_LUT
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_DIV.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity CORDIC_DIV
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_MUL.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity CORDIC_MUL
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/new/CORDIC_TRIG.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_TRIG
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/coprocessor.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity coprocessor
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Liam/Documents/GitHub/Cordic/Cordic.srcs/sources_1/imports/new/fifo.vhd" into library xil_defaultlib

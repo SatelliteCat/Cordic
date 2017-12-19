@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1513560645">
-  <File Type="PWROPT-DRC" Name="CORDIC_MUL_drc_pwropted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="CORDIC_MUL_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="CORDIC_MUL_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="CORDIC_MUL_power_routed.rpx"/>
   <File Type="PA-TCL" Name="CORDIC_MUL.tcl"/>
-  <File Type="OPT-HWDEF" Name="CORDIC_MUL.hwdef"/>
+  <File Type="INIT-TIMING" Name="CORDIC_MUL_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CORDIC_MUL_methodology_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="CORDIC_MUL_drc_pwropted.rpt"/>
   <File Type="RDI-RDI" Name="CORDIC_MUL.vdi"/>
   <File Type="OPT-DCP" Name="CORDIC_MUL_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="CORDIC_MUL.hwdef"/>
   <File Type="OPT-DRC" Name="CORDIC_MUL_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="CORDIC_MUL_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="CORDIC_MUL_pwropt.dcp"/>
@@ -31,14 +31,14 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="CORDIC_MUL_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="CORDIC_MUL_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="CORDIC_MUL_drc_routed.pb"/>
-  <File Type="BG-BIN" Name="CORDIC_MUL.bin"/>
   <File Type="ROUTE-DRC-RPX" Name="CORDIC_MUL_drc_routed.rpx"/>
-  <File Type="BG-DRC" Name="CORDIC_MUL.drc"/>
+  <File Type="BG-BIN" Name="CORDIC_MUL.bin"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="CORDIC_MUL_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-MSK" Name="CORDIC_MUL.msk"/>
+  <File Type="BG-DRC" Name="CORDIC_MUL.drc"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CORDIC_MUL_methodology_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="CORDIC_MUL.bgn"/>
+  <File Type="BITSTR-MSK" Name="CORDIC_MUL.msk"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CORDIC_MUL_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="CORDIC_MUL.bgn"/>
   <File Type="ROUTE-PWR" Name="CORDIC_MUL_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="CORDIC_MUL_power_summary_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="CORDIC_MUL_route_status.rpt"/>
